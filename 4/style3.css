@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+.container{
+    border: 10px solid gray;
+    display: grid;
+    /* height: 800px; */
+    /* grid-template-columns: repeat(2,minmax(100px,1fr)); */
+    /* grid-template-rows:repeat(3,1fr); */
+    /* padding: 10px; */
+    /* grid-template: repeat(2,200px) / repeat(3,200px);
+    /* column-gap: 10px;  */
+    /* row-gap: 10px ; */
+    /* gap: 10px 40px; */
+    /* justify-items:center; */
+    /* align-items: center; */
+    /* place-items: center  ; */
+    /* justify-content: space-evenly; */
+    /* align-content: space-evenly; */
+    place-content: stretch ;
+    grid-auto-flow:row;
+    /* grid-auto-columns: 100px; */
+    /* grid-auto-rows: 150px; */
+}
+.grid-item{
+    color: red; 
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.item-1{
+    background-color: rgb(182, 212, 202);
+    border: solid black;
+    border-width:  10px 10px 5px 10px;
+    /* grid-column-start: 1; */
+    /* grid-column-end: 2; */
+    /* grid-row-start: 1; */
+    /* grid-row-end: span 3; */
+    /* grid-column: 1 / span 1; */
+    /* grid-row: 1 / span 3; */
+}
+.item-2{
+    background-color: rgb(41, 155, 117);
+    border: solid black;
+    border-width:  5px 10px 5px 10px;
+}
+.item-3{
+    background-color: rgb(16, 51, 39);
+    border: solid black;
+    border-width:  5px 10px 5px 10px;
+}
+.item-4{
+    background-color: rgb(16, 17, 17);
+    border: solid black;
+    border-width:  5px 10px 5px 10px;
+}
+.item-5{
+    background-color: rgb(47, 78, 68);
+    border:  solid black;
+    border-width:  5px 10px 5px 10px;
+}
+.item-6{
+    background-color: rgb(39, 134, 103);
+    border: solid black;
+    border-width:  5px 10px 10px 10px;
+    
+}
