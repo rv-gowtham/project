@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -10,34 +11,44 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
     <!-- bootstrap -->
     <link rel="stylesheet" href="./ASSETS/css/bootstrap.min.css">
+    <style>
+        .grid-layout.container {
+            border: 1px solid #ff0000 !important;
+        }
+    </style>
 </head>
 
-<body class="b" style="background-color: rgb(198, 226, 226);">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> -->
-    <!-- bootstrap js -->
-    <script src="./ASSETS/js/jquery.min.js"></script>
-    <script src="./ASSETS/js/bootstrap.min.js"></script>
-
+<body class="body">
     <!-- container -->
-    <div class="container" >
-        <div class="row"></div>
-        <h2>This is the 1st bootstrap program</h2>
-        <h3>This is the 1st bootstrap program</h3>
-        <h4>This is the 1st bootstrap program</h4>
-        <h5>This is the 1st bootstrap program</h5>
-        <h6>This is the 1st bootstrap program</h6>
+    <div class="container p50">
         <h1>This is the 1st bootstrap program</h1>
         <p>Learnind bootstrap</p>
-    <div>
-        <hr>
-
-    <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-    </ul>
-    <hr>
     </div>
-    
+
+    <div class="container color-1 height-500">
+        <h4>Bootu pooostrap-Grids</h4>
+        <p>Learning Layouts</p>
+
+        <div class="grid-layout container">
+            <div class="row">
+                <div class="col-md bg">
+                    [LOGO]
+                </div>
+                <div class="col bg">
+                    <ul>Home</ul>
+                    <ul>About</ul>
+                    <ul>Contact</ul>        
+                </div>
+                <div class="col-md">
+                    <button>Login</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./ASSETS/js/jquery.min.js"></script>
+    <script src="./ASSETS/js/bootstrap.min.js"></script>
 </body>
-</html>
+
+</htmmd

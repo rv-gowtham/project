@@ -1,4 +1,26 @@
+.body{
+    background-color: rgb(199, 177, 177);
+}
 
-div{
-    background-color: rgb(226, 214, 226);
+
+div.container{
+    background-color: rgb(243, 175, 243);
+}
+
+.p50 {
+    padding: 50px;
+    border: 1px solid #ffff;
+    border: 1px solid #ffffff;
+}
+
+.color-1{
+    min-height: 500px;
+    background-color: #563d7c26;
+    border: 1px solid rgb(66, 40, 40);
+}
+
+.bg{
+    padding: 10px;
+    background-color: #fff000;
+    border: 1px solid rgb(223, 185, 185);
 }
